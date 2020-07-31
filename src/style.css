@@ -1,0 +1,31 @@
+.weather-app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 28px;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+li {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #000000;
+  font-weight: 200;
+  font-weight: 20px;
+}
