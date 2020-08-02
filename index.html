@@ -15,30 +15,37 @@
   </head>
   <body>
     <div class="container"></div>
-    <div class="weather-app">
-      <h1>Amsterdam</h1>
-      <ul>
-        <li>
-          Friday 15:00
-        </li>
-        <li>
-          Clear
-        </li>
-      </ul>
-      <div class="row">
-        <div class="col-6">
-          <ul>
-            <li>
-              Humidity 30%
-            </li>
-            <li>
-              Wind: 2km/h
-            </li>
-          </ul>
-        </div>
-        <div class="col-6">
-          <img src="images/sun.png" alt="Clear" />
-          <div>12˚C | F˚</div>
+    <div class="weather-app-wrapper">
+      <div class="weather-app">
+        <h1>Amsterdam</h1>
+        <ul>
+          <li>
+            Friday 15:00
+          </li>
+          <li>
+            Clear
+          </li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <ul>
+              <li>
+                Humidity 30%
+              </li>
+              <li>
+                Wind: 2km/h
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <div class="clearfix weather-temperature">
+              <img src="images/sun.png" alt="Clear" class="float-right" />
+              <div class="float-right">
+                <strong>12</strong
+                ><span class="units">˚C | <a href="#">F˚</a> </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <small>
@@ -48,7 +55,6 @@
         by Gala Lozynska
       </small>
     </div>
-
     <script src="src/app.js"></script>
   </body>
 </html>
